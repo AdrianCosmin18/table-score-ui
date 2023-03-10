@@ -18,9 +18,16 @@
 
 
     <article class="main-table text-center">
-      <div *ngFor="let itr of players" class="player-card row" [playerInput]="itr">
+      <div *ngFor="let itr of players"
+           class="player-card row"
+           [playerInput]="itr"
+           (changeScore)="handleChangeScore($event)"
+           (deleteEmitter)="deletePlayer($event)">
       </div>
     </article>
+
+    <article class="footer-table text-center"
+              (playerEmitName)="getNewPlayer($event)"></article>
 
   </section>
 

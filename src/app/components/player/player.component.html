@@ -1,8 +1,12 @@
 
   <div class="col-9 d-flex justify-content-start">
+    <fa-icon [icon]="faClose" (click)="emitPlayerId(playerInput.id)"></fa-icon>
     <h4 style="margin-left: 10%;">{{playerInput.name}}</h4>
   </div>
-  <div class="col-3 d-flex flex-row justify-content-between counter">
+  <div class="col-3 d-flex flex-row justify-content-between counter"
+       [id]="playerInput.id"
+       [score]="playerInput.score"
+       (changeScore)="onChangeScore($event)">
 
   </div>
 

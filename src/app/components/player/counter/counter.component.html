@@ -1,5 +1,7 @@
 <button class="btn btn-secondary" type="button"
-        style="background-color: #dcdcdc; border: #dcdcdc; color: #b1afb9;">-</button>
-<h4>0</h4>
+        style="background-color: #dcdcdc; border: #dcdcdc; color: #b1afb9;"
+        (click)="onChangeScore(-1)">-</button>
+<h4>{{this.score}}</h4>
 <button class="btn btn-secondary" type="button"
-        style="background-color: #dcdcdc; border: #dcdcdc; color: #b1afb9;">+</button>
+        style="background-color: #dcdcdc; border: #dcdcdc; color: #b1afb9;"
+        (click)="onChangeScore(+1)">+</button>

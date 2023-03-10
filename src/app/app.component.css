@@ -13,3 +13,12 @@
   width: 100%;
   border: 1px solid white !important;
 }
+
+.footer-table {
+  width: 100%;
+  border: 1px solid #8063fb;
+  padding: 15px;
+  background-color: #8063fc;
+}
+
+
