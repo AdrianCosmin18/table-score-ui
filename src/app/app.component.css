@@ -1,0 +1,15 @@
+.container-sm {
+  border: 1px solid grey;
+}
+
+.header-table {
+  margin-top: 300px;
+  width: 100%;
+  border: 1px solid #8063fb;
+  border-radius: 8px;
+}
+
+.main-table {
+  width: 100%;
+  border: 1px solid white !important;
+}

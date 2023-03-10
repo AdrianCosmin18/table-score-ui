@@ -1,0 +1,29 @@
+#info {
+  background-color: #8063fb;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+
+#title {
+  background-color: #8063fb;
+  color: white;
+}
+
+#score {
+  background-color: #5c45b9;
+  color: white;
+}
+
+button {
+  background-color: #423388;
+  border: #423388;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+}
